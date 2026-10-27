@@ -1,0 +1,14 @@
+
+#0,30 * * * * ziel_api_syncdata.bat
+
+0,15,30,45 * * * * run_csv_process.bat
+
+# This is a sample crontab file. This file must be copied to the same directory as cron.exe
+# A log is written to cron.log
+# This is a comment. In fact, every line not starting with a number is treated as a comment.
+<Minute 0-59>
+<Hour 0-23>
+<Day 1-31>
+<Month 1-12>
+<Day of Week 0-6 (0=Sun)>
+<Command line>
